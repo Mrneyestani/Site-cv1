@@ -1,0 +1,224 @@
+body{
+    font-family: 'Century Gothic', Calibri, serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;  
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+}
+
+footer{
+    height: 100px;
+    padding-top: 15Px;
+    padding-bottom: 15Px;
+    text-align: center;
+    background-color: #C5C5C5;
+    border-top: 2px solid #AAA;
+}
+
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #8d1063;
+    }
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+nov ul{
+     margin: 0px;
+    padding: 0px; 
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-ind:hover, .presentation{
+    border-top: 5px solid #4C8;
+    background-color: RGBa(64, 200, 130, 0.15);
+}
+
+.menu-exp:hover, .parcours{
+    border-top: 5px solid #F1DC4F;
+    background-color: RGBa(242, 211, 79, 0.15);
+}
+
+.menu-hob:hover, .competences{
+    border-top: 5px solid #0070BB;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-con:hover, .recommandation{
+    border-top: 5px solid #E44D26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.sec{
+    margin: 0px 10%;
+}
+
+/*.rouge {
+    text-align: center;
+}
+
+.rouge div a:hover {
+    color: #5c0535;
+    text-decoration: none;
+}*/
+
+#contact div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+#contact img {
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+#contact a {
+    color: black;
+    text-decoration: none;
+  }
+  
+#contact a:hover {
+    color: #5c48d2;
+  }
+
+.left{
+  float: left;
+  width: 30%;
+}
+
+.maphoto img {
+    height: 250px;
+    width: 200px;
+    object-fit: calc();
+    border-radius: 50%;
+    border: #fcc01a 2px solid;
+    margin-right: 70px;
+    margin-bottom: 100px;
+  }
+
+.right{
+  float: left;
+  width: 70%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+   width: 50%;
+   float: left;
+}
+
+.sec::after, .exp::after, .reco::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.orange{
+    border-top: 5px solid #E47D26;
+    background-color: RGBa(228, 117, 38, 0.15);
+    margin-bottom: 0px;
+}
+
+.rose{
+    border-top: 5px solid #E44D96;
+    background-color: RGBa(228, 77, 128, 0.15);
+    margin-bottom: 0px;
+}
+
+.vert{
+    border-top: 5px solid #5F6;
+    background-color: RGBa(70, 240, 80, 0.15);
+}
+
+.bleu{
+    border-top: 5px solid #29C;
+    background-color: RGBa(30, 152, 212, 0.15);
+}
+
+.jaune{
+    border-top: 5px solid #F3E241;
+    background-color: RGBa(240, 255, 69, 0.15);
+}
+
+.rouge{
+    border-top: 5px solid #E44D26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.leftexp img{
+    width: 100%;
+    min-width: 400px;
+
+
+@media screen and(max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+     nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
